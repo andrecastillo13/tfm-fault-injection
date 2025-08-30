@@ -1,0 +1,12 @@
+# Ignorar todos los modelos pesados
+*.tflite
+*.h5
+*.pb
+*.ckpt
+*.onnx
+
+# --- EXCEPCIONES ---
+!.gitignore
+!README.md
+!samples/
+!samples/**
