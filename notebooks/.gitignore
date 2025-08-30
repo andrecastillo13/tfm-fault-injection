@@ -1,0 +1,13 @@
+# Ignorar checkpoints de Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignorar outputs pesados (exportaciones, imágenes, etc.)
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# --- EXCEPCIONES ---
+!README.md
