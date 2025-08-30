@@ -1,0 +1,17 @@
+# Ignora TODO el contenido de /data
+*
+
+# --- EXCEPCIONES (se versionan) ---
+!.gitignore
+!README.md
+!.gitkeep
+
+# Manifiestos/listas ligeras (útiles para reproducibilidad)
+!filelist_*.txt
+!index_*.txt
+!labels_*.txt
+!MANIFEST*.txt
+
+# Muestras pequeñas para ejemplos o tests (opcional)
+!samples/
+!samples/**
